@@ -17,8 +17,7 @@ Se han discutido las tecnologías en el siguiente [issue](https://github.com/tes
 * Sitio web: en python con el framework `Dash` (capa sobre Flask).
 * Gráficos de datos: con la librería `Plotly`, con soporte de Javascript y Python.
 * Microservicios y orquestación: `Docker` y `Docker compose` **(posible)**.
-* Sistema de logs: con librería `logging` de Python.
 
 ### Licencia
 
-GNU GENERAL PUBLIC LICENSE
+**GNU GENERAL PUBLIC LICENSE**
