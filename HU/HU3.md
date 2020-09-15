@@ -1,6 +1,6 @@
 ## Descripción de alto nivel
 
-* El usuario debe ver un dashboard con un mapa donde se ven los lugares con incidencias en forma puntos.
+* El usuario debe ver un dashboard con un mapa donde se ven los lugares con incidencias en forma puntos clickeables para ver número de incidencias por hora.
 
 ## Dado/Y/Entonces/Cuando
 
