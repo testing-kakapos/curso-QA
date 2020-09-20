@@ -1,0 +1,14 @@
+
+[tool.pyflow]
+name = "kakapos"
+py_version = "3.7"
+version = "0.1.0"
+
+[tool.pyflow.scripts]
+
+[tool.pyflow.dependencies]
+flask = "^1.1.2"
+pytest = "^6.0.2"
+
+[tool.pyflow.dev-dependencies]
+
