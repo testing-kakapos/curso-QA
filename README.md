@@ -8,7 +8,7 @@ Nombre             | Username Github
  Tarek Bouali | [**@iambouali**](https://github.com/iambouali)
  Guillermo Bueno | [**@guillergood**](https://github.com/Guillergood)
 
-### Herramientas & Tecnologías 
+### Herramientas 
 
 Se han discutido las tecnologías en el siguiente [issue](https://github.com/testing-kakapos/curso-QA/issues/6).
 
