@@ -4,4 +4,4 @@
 
 ## Dado/Y/Entonces/Cuando
 
-* El usuario podrá seleccionar incidencias de la lista clickeando y que se remarquen destacandose en el mapa.
+* El usuario podrá seleccionar incidencias de la lista clickeando y que estas se remarquen destacandose en el mapa.
