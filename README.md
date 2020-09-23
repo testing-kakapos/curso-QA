@@ -17,6 +17,15 @@ Se han discutido las tecnologías en el siguiente [issue](https://github.com/tes
 * Sitio web: en python con el framework `Dash` (capa sobre Flask).
 * Gráficos de datos: con la librería `Plotly`, con soporte de Javascript y Python.
 
+### Instrucciones
+
+Para poder ejecutar el proyecto se necesitan instalar las dependencias que vienen en el fichero `requirements.txt`.
+
+Se pueden instalar estas dependencias de forma automatica mediante el siguiente comando: 
+
+```
+pip3 install -r requirements.txt
+```
 ### Licencia
 
 [**GNU GENERAL PUBLIC LICENSE**](https://github.com/testing-kakapos/curso-QA/blob/master/LICENSE)
