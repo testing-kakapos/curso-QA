@@ -1,5 +1,7 @@
 {
     "lenguaje" : "Python",
     "build" : "pytest",
-    "ficheros" : ["pyproject.toml"]
+    "ficheros" : ["pyproject.toml"],
+    "test" : [ "flaskr/app/tests/test_base.py" ]
+    
 }
