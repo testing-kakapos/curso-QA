@@ -1,8 +1,15 @@
 [[package]]
-id = 19
-name = "iniconfig"
-version = "1.0.1"
-source = "pypi+https://pypi.org/pypi/iniconfig/1.0.1/json"
+id = 15
+name = "packaging"
+version = "20.4.0"
+source = "pypi+https://pypi.org/pypi/packaging/20.4.0/json"
+dependencies = ["six 1.15.0 pypi+https://pypi.org/pypi/six/1.15.0/json", "pyparsing 2.4.7 pypi+https://pypi.org/pypi/pyparsing/2.4.7/json"]
+
+[[package]]
+id = 8
+name = "colorama"
+version = "0.4.3"
+source = "pypi+https://pypi.org/pypi/colorama/0.4.3/json"
 dependencies = []
 
 [[package]]
@@ -13,13 +20,6 @@ source = "pypi+https://pypi.org/pypi/pytest/6.0.2/json"
 dependencies = ["iniconfig 1.0.1 pypi+https://pypi.org/pypi/iniconfig/1.0.1/json", "atomicwrites 1.4.0 pypi+https://pypi.org/pypi/atomicwrites/1.4.0/json", "pluggy 0.13.1 pypi+https://pypi.org/pypi/pluggy/0.13.1/json", "colorama 0.4.3 pypi+https://pypi.org/pypi/colorama/0.4.3/json", "py 1.9.0 pypi+https://pypi.org/pypi/py/1.9.0/json", "more-itertools 8.5.0 pypi+https://pypi.org/pypi/more-itertools/8.5.0/json", "toml 0.10.1 pypi+https://pypi.org/pypi/toml/0.10.1/json", "importlib-metadata 1.7.0 pypi+https://pypi.org/pypi/importlib-metadata/1.7.0/json", "packaging 20.4.0 pypi+https://pypi.org/pypi/packaging/20.4.0/json", "attrs 20.2.0 pypi+https://pypi.org/pypi/attrs/20.2.0/json"]
 
 [[package]]
-id = 9
-name = "atomicwrites"
-version = "1.4.0"
-source = "pypi+https://pypi.org/pypi/atomicwrites/1.4.0/json"
-dependencies = []
-
-[[package]]
 id = 5
 name = "MarkupSafe"
 version = "1.1.1"
@@ -27,18 +27,74 @@ source = "pypi+https://pypi.org/pypi/MarkupSafe/1.1.1/json"
 dependencies = []
 
 [[package]]
-id = 14
-name = "pluggy"
-version = "0.13.1"
-source = "pypi+https://pypi.org/pypi/pluggy/0.13.1/json"
+id = 11
+name = "zipp"
+version = "3.1.0"
+source = "pypi+https://pypi.org/pypi/zipp/3.1.0/json"
 dependencies = []
 
 [[package]]
-id = 8
-name = "colorama"
-version = "0.4.3"
-source = "pypi+https://pypi.org/pypi/colorama/0.4.3/json"
+id = 2
+name = "click"
+version = "7.1.2"
+source = "pypi+https://pypi.org/pypi/click/7.1.2/json"
 dependencies = []
+
+[[package]]
+id = 4
+name = "Jinja2"
+version = "2.11.2"
+source = "pypi+https://pypi.org/pypi/Jinja2/2.11.2/json"
+dependencies = ["MarkupSafe 1.1.1 pypi+https://pypi.org/pypi/MarkupSafe/1.1.1/json"]
+
+[[package]]
+id = 9
+name = "atomicwrites"
+version = "1.4.0"
+source = "pypi+https://pypi.org/pypi/atomicwrites/1.4.0/json"
+dependencies = []
+
+[[package]]
+id = 6
+name = "Werkzeug"
+version = "1.0.1"
+source = "pypi+https://pypi.org/pypi/Werkzeug/1.0.1/json"
+dependencies = []
+
+[[package]]
+id = 20
+name = "attrs"
+version = "20.2.0"
+source = "pypi+https://pypi.org/pypi/attrs/20.2.0/json"
+dependencies = []
+
+[[package]]
+id = 19
+name = "iniconfig"
+version = "1.0.1"
+source = "pypi+https://pypi.org/pypi/iniconfig/1.0.1/json"
+dependencies = []
+
+[[package]]
+id = 17
+name = "pyparsing"
+version = "2.4.7"
+source = "pypi+https://pypi.org/pypi/pyparsing/2.4.7/json"
+dependencies = []
+
+[[package]]
+id = 18
+name = "more-itertools"
+version = "8.5.0"
+source = "pypi+https://pypi.org/pypi/more-itertools/8.5.0/json"
+dependencies = []
+
+[[package]]
+id = 10
+name = "importlib-metadata"
+version = "1.7.0"
+source = "pypi+https://pypi.org/pypi/importlib-metadata/1.7.0/json"
+dependencies = ["zipp 3.1.0 pypi+https://pypi.org/pypi/zipp/3.1.0/json"]
 
 [[package]]
 id = 13
@@ -55,20 +111,6 @@ source = "pypi+https://pypi.org/pypi/six/1.15.0/json"
 dependencies = []
 
 [[package]]
-id = 18
-name = "more-itertools"
-version = "8.5.0"
-source = "pypi+https://pypi.org/pypi/more-itertools/8.5.0/json"
-dependencies = []
-
-[[package]]
-id = 3
-name = "itsdangerous"
-version = "1.1.0"
-source = "pypi+https://pypi.org/pypi/itsdangerous/1.1.0/json"
-dependencies = []
-
-[[package]]
 id = 1
 name = "Flask"
 version = "1.1.2"
@@ -76,10 +118,10 @@ source = "pypi+https://pypi.org/pypi/Flask/1.1.2/json"
 dependencies = ["click 7.1.2 pypi+https://pypi.org/pypi/click/7.1.2/json", "itsdangerous 1.1.0 pypi+https://pypi.org/pypi/itsdangerous/1.1.0/json", "Jinja2 2.11.2 pypi+https://pypi.org/pypi/Jinja2/2.11.2/json", "Werkzeug 1.0.1 pypi+https://pypi.org/pypi/Werkzeug/1.0.1/json"]
 
 [[package]]
-id = 6
-name = "Werkzeug"
-version = "1.0.1"
-source = "pypi+https://pypi.org/pypi/Werkzeug/1.0.1/json"
+id = 3
+name = "itsdangerous"
+version = "1.1.0"
+source = "pypi+https://pypi.org/pypi/itsdangerous/1.1.0/json"
 dependencies = []
 
 [[package]]
@@ -90,52 +132,10 @@ source = "pypi+https://pypi.org/pypi/toml/0.10.1/json"
 dependencies = []
 
 [[package]]
-id = 17
-name = "pyparsing"
-version = "2.4.7"
-source = "pypi+https://pypi.org/pypi/pyparsing/2.4.7/json"
-dependencies = []
-
-[[package]]
-id = 10
-name = "importlib-metadata"
-version = "1.7.0"
-source = "pypi+https://pypi.org/pypi/importlib-metadata/1.7.0/json"
-dependencies = ["zipp 3.1.0 pypi+https://pypi.org/pypi/zipp/3.1.0/json"]
-
-[[package]]
-id = 15
-name = "packaging"
-version = "20.4.0"
-source = "pypi+https://pypi.org/pypi/packaging/20.4.0/json"
-dependencies = ["six 1.15.0 pypi+https://pypi.org/pypi/six/1.15.0/json", "pyparsing 2.4.7 pypi+https://pypi.org/pypi/pyparsing/2.4.7/json"]
-
-[[package]]
-id = 2
-name = "click"
-version = "7.1.2"
-source = "pypi+https://pypi.org/pypi/click/7.1.2/json"
-dependencies = []
-
-[[package]]
-id = 20
-name = "attrs"
-version = "20.2.0"
-source = "pypi+https://pypi.org/pypi/attrs/20.2.0/json"
-dependencies = []
-
-[[package]]
-id = 4
-name = "Jinja2"
-version = "2.11.2"
-source = "pypi+https://pypi.org/pypi/Jinja2/2.11.2/json"
-dependencies = ["MarkupSafe 1.1.1 pypi+https://pypi.org/pypi/MarkupSafe/1.1.1/json"]
-
-[[package]]
-id = 11
-name = "zipp"
-version = "3.1.0"
-source = "pypi+https://pypi.org/pypi/zipp/3.1.0/json"
+id = 14
+name = "pluggy"
+version = "0.13.1"
+source = "pypi+https://pypi.org/pypi/pluggy/0.13.1/json"
 dependencies = []
 
 [metadata]
