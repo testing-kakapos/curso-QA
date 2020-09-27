@@ -29,12 +29,7 @@ pip3 install -r requirements.txt
 
 Para ejecutar los tests:
 ```
-pytest
-```
-Para ejecutar un test en concreto se debería llamar al fichero que está dentro de la capeta ```test``` dentro de ```app``` y a su vez de ```flaskr```.
-Por ejemplo:
-```
-pytest test_base.py
+pyflow test
 ```
 
 
