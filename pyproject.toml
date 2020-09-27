@@ -12,3 +12,5 @@ pytest = "^6.0.2"
 
 [tool.pyflow.dev-dependencies]
 
+[tool.pyflow.extras]
+test = "pytest"
