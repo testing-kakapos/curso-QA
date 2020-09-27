@@ -26,6 +26,18 @@ Se pueden instalar estas dependencias de forma automatica mediante el siguiente 
 ```
 pip3 install -r requirements.txt
 ```
+
+Para ejecutar los tests:
+```
+pytest
+```
+Para ejecutar un test en concreto se debería llamar al fichero que está dentro de la capeta ```test``` dentro de ```app``` y a su vez de ```flaskr```.
+Por ejemplo:
+```
+pytest test_base.py
+```
+
+
 ### Licencia
 
 [**GNU GENERAL PUBLIC LICENSE**](https://github.com/testing-kakapos/curso-QA/blob/master/LICENSE)
