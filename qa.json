@@ -1,7 +1,11 @@
 {
     "lenguaje" : "Python",
-    "build" : "pytest",
-    "ficheros" : ["pyproject.toml"],
-    "test" : [ "flaskr/app/tests/test_base.py" ]
+    "build" : "pyproject.toml",
+    "ficheros" : [
+        "flaskr/app/barchart.py",
+        "flaskr/app/map.py",
+        "flaskr/app/routes.py"],
+    "test" : [ "flaskr/app/tests/test_base.py" ],
+    "runner": "pytest"
     
 }
