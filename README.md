@@ -30,7 +30,7 @@ pip3 install -r requirements.txt
 Para ejecutar los tests:
 
 ```
-pyflow 
+pyflow test test
 ```
 
 
