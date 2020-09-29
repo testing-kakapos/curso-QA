@@ -1,10 +1,12 @@
 language: python
+env: PYTHON_VERSION=3.7.0
 python:
   - "3.7.0"
 
 install:
-  - pip3 install pyflow
+  - pip install pyflow
   - pyflow install
+  - pip install --user -r tests/requirements.txt
 
 script:
-  - pyflow test
+  - python -m pytest
