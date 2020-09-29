@@ -3,8 +3,8 @@ python:
   - "3.7.0"
 
 install:
-  - pip install pyflow
-  - pyflow install 
+  - pip3 install pyflow
+  - pyflow install
 
-script: 
+script:
   - pyflow test
