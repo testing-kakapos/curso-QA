@@ -5,6 +5,7 @@ python:
 
 install:
   - pip install pyflow
+  - pip install flask
 
 script:
   - pytest
