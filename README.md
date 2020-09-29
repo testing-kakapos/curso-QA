@@ -13,9 +13,12 @@ Nombre             | Username Github
 Se han discutido las tecnologías en el siguiente [issue](https://github.com/testing-kakapos/curso-QA/issues/6).
 
 * Servidor en cloud: sobre `Debian`.
+[![Build Status](https://travis-ci.org/testing-kakapos/curso-QA.svg?branch=master)](https://travis-ci.org/github/testing-kakapos/curso-QA)
 * API: se usará una `API` pública para obtener la información necesaria.
 * Sitio web: en python con el framework `Dash` (capa sobre Flask).
 * Gráficos de datos: con la librería `Plotly`, con soporte de Javascript y Python.
+
+
 
 ### Instrucciones
 
