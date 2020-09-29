@@ -1,3 +1,11 @@
-language: minimal
+language: python
+env: PYTHON_VERSION=3.7.0
+python:
+  - "3.7.0"
 
-script: /bin/true
+install:
+  - pip install pyflow
+  - pip install flask
+
+script:
+  - pytest
