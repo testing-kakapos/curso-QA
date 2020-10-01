@@ -7,7 +7,6 @@ install:
   - pip install pyflow
   - pip install flask
   - pip install coverage
-  - pip install pyflow
   - pip install pytest-cov
 
 script:
