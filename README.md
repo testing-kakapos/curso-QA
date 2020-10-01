@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/testing-kakapos/curso-QA.svg?branch=master)](https://travis-ci.org/github/testing-kakapos/curso-QA)
-
+[![codecov](https://codecov.io/gh/testing-kakapos/curso-QA/branch/master/graph/badge.svg)](https://codecov.io/gh/testing-kakapos/curso-QA)
 ### Descripción
 Rastreador de incidencias de tráfico en Granada, con análisis de las mismas, que sirve los resultados en una plataforma web a partir de una API.
 
