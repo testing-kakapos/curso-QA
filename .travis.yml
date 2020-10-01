@@ -6,6 +6,12 @@ python:
 install:
   - pip install pyflow
   - pip install flask
+  - pip install coverage
+  - pip install pytest-cov
 
 script:
   - pytest
+  - pytest --cov=./flaskr/app/tests/
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
