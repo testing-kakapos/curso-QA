@@ -36,6 +36,11 @@ Para ejecutar los tests:
 pyflow test test
 ```
 
+Para poder ejecutar los tests de cobertura necesitaremos ejecutar el siguiente comando:
+
+```
+pyflow test coverage
+```
 
 ### Licencia
 
