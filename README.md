@@ -37,8 +37,11 @@ Para ejecutar los tests:
 pyflow test test
 ```
 
-Para poder ejecutar los tests de cobertura necesitaremos ejecutar el siguiente comando:
-
+Para poder ejecutar los tests de cobertura necesitaremos ejecutar alguno de los siguientes comando:
+```
+pyflow test coverage
+```
+O (recomendado):
 ```
 pytest --cov=./flaskr/app/tests/
 ```
