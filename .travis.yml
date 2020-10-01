@@ -8,10 +8,12 @@ install:
   - pip install flask
   - pip install coverage
   - pip install pytest-cov
+  - pip install codecov
 
 script:
   - pytest
-  - pytest --cov=./flaskr/app/tests/
+  - pytest --cov-report term --cov=./flaskr/app/tests/
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - codecov -t 5ee6744e-1f75-425d-b147-a3bbe7eabf98
