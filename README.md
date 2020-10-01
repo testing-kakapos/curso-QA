@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/testing-kakapos/curso-QA.svg?branch=master)](https://travis-ci.org/github/testing-kakapos/curso-QA)
+
 ### Descripción
 Rastreador de incidencias de tráfico en Granada, con análisis de las mismas, que sirve los resultados en una plataforma web a partir de una API.
 
@@ -13,7 +15,6 @@ Nombre             | Username Github
 Se han discutido las tecnologías en el siguiente [issue](https://github.com/testing-kakapos/curso-QA/issues/6).
 
 * Servidor en cloud: sobre `Debian`.
-[![Build Status](https://travis-ci.org/testing-kakapos/curso-QA.svg?branch=master)](https://travis-ci.org/github/testing-kakapos/curso-QA)
 * API: se usará una `API` pública para obtener la información necesaria.
 * Sitio web: en python con el framework `Dash` (capa sobre Flask).
 * Gráficos de datos: con la librería `Plotly`, con soporte de Javascript y Python.
@@ -27,7 +28,7 @@ Para poder ejecutar el proyecto se necesitan instalar las dependencias que viene
 Se pueden instalar estas dependencias de forma automatica mediante el siguiente comando: 
 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Para ejecutar los tests:
@@ -39,7 +40,7 @@ pyflow test test
 Para poder ejecutar los tests de cobertura necesitaremos ejecutar el siguiente comando:
 
 ```
-pyflow test coverage
+pytest --cov=.\flaskr\app\tests\
 ```
 
 ### Licencia
