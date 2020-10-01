@@ -40,7 +40,7 @@ pyflow test test
 Para poder ejecutar los tests de cobertura necesitaremos ejecutar el siguiente comando:
 
 ```
-pytest --cov=.\flaskr\app\tests\
+pytest --cov=./flaskr/app/tests/
 ```
 
 ### Licencia
