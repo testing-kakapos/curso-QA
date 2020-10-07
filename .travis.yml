@@ -11,8 +11,8 @@ install:
   - pip install pytest-cov
 
 script:
-  - pytest
   - pytest --cov=./flaskr/app/tests/
+  - poetry run poe test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
