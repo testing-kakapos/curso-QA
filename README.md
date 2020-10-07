@@ -39,14 +39,21 @@ pyflow test test
 ```
 
 Para poder ejecutar los tests de cobertura necesitaremos ejecutar alguno de los siguientes comando:
+
 ```
 pyflow test coverage
 ```
 O (recomendado):
+
 ```
 pytest --cov=./flaskr/app/tests/
 ```
 
+Para lanzar el microservicio:
+
+```
+export FLASK_APP=./flaskr/web_api/server.py && poetry run poe run
+```
 ### Licencia
 
 [**GNU GENERAL PUBLIC LICENSE**](https://github.com/testing-kakapos/curso-QA/blob/master/LICENSE)
