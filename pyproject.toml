@@ -1,16 +1,15 @@
-
-[tool.pyflow]
+[tool.poetry]
 name = "kakapos"
-py_version = "3.7"
-version = "0.1.0"
+version = "1.0.0"
+description = ""
+authors = ["kakapos team"]
+license = "GLP"
 
-[tool.pyflow.scripts]
+[tool.poetry.dependencies]
+python = "^3.7"
 
-[tool.pyflow.dependencies]
-flask = "^1.1.2"
-pytest = "^6.0.2"
+[tool.poetry.dev-dependencies]
 
-[tool.pyflow.dev-dependencies]
-
-[tool.pyflow.extras]
-test = "pytest"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
